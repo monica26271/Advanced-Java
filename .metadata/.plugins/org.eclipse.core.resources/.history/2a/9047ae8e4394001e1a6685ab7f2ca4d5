@@ -1,0 +1,32 @@
+package org.kodnest.hibernate_demo;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Student1 s1=new Student1(1,"Nandish",95);
+    	Bike1 b1=new Bike1(1,"Kawasaki",123456777.5);
+    	
+    	Configuration con=new Configuration();
+    	con.configure();
+    	
+    	SessionFactory factory=con.buildSessionFactory();
+    	Session session=factory.openSession();
+    	Transaction txn=session.beginTransaction();
+    	session.save(s1);
+    	session.save(b1);
+    	txn.commit();
+    	System.out.println("----> "+s1+"data stored to db sucessfully");
+    	System.out.println("----> "+b1+"data stored to db sucessfully");
+    	
+    	
+    	
+    	
+    }
+}

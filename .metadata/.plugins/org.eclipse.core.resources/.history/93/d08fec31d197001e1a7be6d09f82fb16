@@ -1,0 +1,25 @@
+package org.kodnest.hibernate_demo;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
+
+@Entity
+public class Bike1 {
+	@Id
+	int regNumber;
+	String model;
+	double price;
+	
+	@OneToOne
+	Student1 student;
+	
+	public Bike1() {
+		super();
+	}
+	
+	
+	
+	
+
+}
