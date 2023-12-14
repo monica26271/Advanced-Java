@@ -21,4 +21,7 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="org.kodnest.hibernate_update.Laptop"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.kodnest.bean.Student"/>
+    <fullyQualifiedTypeName name="org.kodnest.bean.Laptop"/>
 </qualifiedTypeNameHistroy>

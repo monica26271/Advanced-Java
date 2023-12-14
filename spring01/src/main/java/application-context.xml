@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.springframework.org/schema/beans
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 	<bean id="s1" class="org.kodnest.bean.Student">
@@ -9,4 +9,16 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 		<property name="name" value="Monica"></property>
 		<property name="marks" value="100"></property>
 	</bean>
+	<bean id="l1" class="org.kodnest.bean.Laptop">
+		<property name="serialNumber" value="1111"></property>
+		<property name="manufacturer" value="HP"></property>
+		<property name="cost" value="386667"></property>
+	</bean>
+	<bean id="l2" class="org.kodnest.bean.Laptop">
+		<property name="serialNumber" value="2222"></property>
+		<property name="manufacturer" value="DELL"></property>
+		<property name="cost" value="476879"></property>
+	</bean>
+
+
 </beans>
