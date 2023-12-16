@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\vijay\hibernate-workspace\spring01"/>
 			<item value="C:\Users\vijay\hibernate-workspace\hibernate-update"/>
 			<item value="C:\Users\vijay\hibernate-workspace\hibernate-demo1\src\main\java\org\kodnest\hibernate_demo1\Product.java"/>
 		</list>
@@ -39,25 +40,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.kodnest.spring01"/>
-			<item value="org.kodnest.hibernate_update"/>
-			<item value="org.kodnest.hibernate_mtm"/>
-			<item value="org.kodnest.hibernate_manytomany"/>
-			<item value="org.kodnest.hibernate_demo2"/>
-			<item value="org.kodnest.hibernate_demo1"/>
-			<item value="org.kodnest.hibernate_demo"/>
 		</list>
 		<list key="groupId">
-			<item value="org.kodnest"/>
 		</list>
 		<list key="artifactId">
-			<item value="spring01"/>
-			<item value="hibernate-update"/>
-			<item value="hibernate-mtm"/>
-			<item value="hibernate-manytomany"/>
-			<item value="hibernate-demo2"/>
-			<item value="hibernate-demo1"/>
-			<item value="hibernate-demo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -73,10 +59,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="org.kodnest"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="spring02"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

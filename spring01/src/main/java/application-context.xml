@@ -15,10 +15,11 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 		<property name="cost" value="386667"></property>
 	</bean>
 	<bean id="l2" class="org.kodnest.bean.Laptop">
-		<property name="serialNumber" value="2222"></property>
-		<property name="manufacturer" value="DELL"></property>
-		<property name="cost" value="476879"></property>
+		<constructor-arg name="cost" value="12334.4"></constructor-arg>
+		<constructor-arg name="serialNumber" value="222"></constructor-arg>
+		<constructor-arg name="manufacturer" value="DELL"></constructor-arg>
 	</bean>
+	
 
 
 </beans>
